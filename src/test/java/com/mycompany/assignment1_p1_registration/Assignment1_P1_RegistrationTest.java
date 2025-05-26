@@ -19,22 +19,6 @@ public class Assignment1_P1_RegistrationTest {
     
     public Assignment1_P1_RegistrationTest() {
     }
-
-    @org.junit.jupiter.api.BeforeAll
-    public static void setUpClass() throws Exception {
-    }
-
-    @org.junit.jupiter.api.AfterAll
-    public static void tearDownClass() throws Exception {
-    }
-
-    @org.junit.jupiter.api.BeforeEach
-    public void setUp() throws Exception {
-    }
-
-    @org.junit.jupiter.api.AfterEach
-    public void tearDown() throws Exception {
-    }
     
     @BeforeAll
     public static void setUpClass() {
@@ -55,7 +39,7 @@ public class Assignment1_P1_RegistrationTest {
     /**
      * Test of main method, of class Assignment1_P1_Registration.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testMain() {
         System.out.println("main");
         String[] args = null;
