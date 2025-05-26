@@ -119,5 +119,19 @@ public class LoginTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of getCellPhoneNumber method, of class Login.
+     */
+    @Test
+    public void testGetCellPhoneNumber() {
+        System.out.println("getCellPhoneNumber");
+        Login instance = null;
+        String expResult = "";
+        String result = instance.getCellPhoneNumber();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
